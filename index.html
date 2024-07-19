@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>World Clock</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>World Clock</h1>
-      <select>
-        <option value="">Select a City</option>
-        <option value="London">London</option>
-        <option value="New-York">New York</option>
-        <option value="Auckland">Auckland</option>
-      </select>
-      <div class="city">
-        <div>  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <title>World Clock</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>World Clock</h1>
+    <select>
+      <option value="">Select a City</option>
+      <option value="London">London</option>
+      <option value="New-York">New York</option>
+      <option value="Auckland">Auckland</option>
+    </select>
+    <div class="city">
+      <div>
         <h2>Los Angeles</h2>
         <div class="date">August 15th, 2022</div>
-    </div>
-        <div class="time">1:50 PM</div>
       </div>
+      <div class="time">1:50:15 <small>PM</small></div>
     </div>
-     </div>
-    <footer>
-      This project is coded by Sarah Vue and open-sourced on
-      <a href="https://github.com/sarahvue/worldClock">GitHub</a>
-    </footer>
-    <script src="src/index.js"></script>
-  </body>
+    <div class="city">
+      <div>
+        <h2>Paris</h2>
+        <div class="date">August 15th, 2022</div>
+      </div>
+      <div class="time">1:50:15 <small>PM</small></div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    This project is coded by Sarah and open-sourced on
+    <a href="https://github.com/sarahvue/worldClock">GitHub</a>
+  </footer>
+  <script src="src/index.js"></script>
+</body>
+
 </html>
