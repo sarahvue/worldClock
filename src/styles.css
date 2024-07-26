@@ -35,7 +35,7 @@ select {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  border-bottom: 1.5px dashed rgba(0,0,0,0.2);
+  border-bottom: 1.5px dashed rgba(0, 0, 0, 0.2);
   padding: 20px 0;
 }
 
@@ -46,7 +46,6 @@ select {
 .date {
   opacity: 0.7;
 }
-
 
 .time {
   font-size: 48px;
@@ -65,7 +64,7 @@ button {
   margin: 0 auto;
   background-color: #f9f7fe;
   border-radius: 5px;
-  border-color: #C3B1E1;
+  border-color: #c3b1e1;
 }
 
 button a {
@@ -76,5 +75,23 @@ button a {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .city h2 {
+    text-align: center;
+  }
+
+  .date {
+    text-align: center;
+  }
 }
